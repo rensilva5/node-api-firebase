@@ -20,7 +20,7 @@ exports.helloThere = functions.https.onRequest((req, res) => {
 })
 
 app.get('/', (req, res) => {
-    res.send('sending all changes!')
+    res.send('sending all the changes!')
 })
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions
